@@ -1,0 +1,55 @@
+/* Main Page */
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d9fdd3, #e8f5e9);
+    color: #222;
+}
+
+/* Heading */
+h3 {
+    text-align: center;
+    font-size: 32px;
+    color: #075e54;
+    margin-bottom: 30px;
+}
+
+/* Chat Card */
+.chat {
+    max-width: 700px;
+    margin: 18px auto;
+    padding: 18px 22px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    border-left: 5px solid #25d366;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.chat:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* From / Received Text */
+.chat p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* Message Box */
+.msg {
+    background: #dcf8c6;
+    padding: 12px 15px;
+    margin: 12px 0;
+    border-radius: 12px;
+}
+
+/* Message Text */
+.msg p {
+    margin: 0;
+    font-size: 17px;
+    color: #222;
+}
